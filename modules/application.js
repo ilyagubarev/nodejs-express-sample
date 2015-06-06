@@ -25,7 +25,7 @@ express()
     })
 
     .get('/(*)', function (request, response) {
-      response.render(index, {
+      response.render("index", {
         application: {
           title: "nodejs-express-example"
         },
