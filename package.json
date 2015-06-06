@@ -5,10 +5,10 @@
     "start": "node modules/application.js"
   },
   "dependencies": {
-    "express": "~4.12.4"
+    "express": "~4.12.4",
+    "jade": "~1.10.0"
   },
   "engines": {
-    "node": "~0.12.4",
-    "npm": "~2.11.1"
+    "node": "~0.12.4"
   }
 }
