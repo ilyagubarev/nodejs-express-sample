@@ -30,7 +30,7 @@ express()
           title: "nodejs-express-example"
         },
         system: {
-          base: [request.path, request.url].join(' ::: ') 
+          base: [request.originalUrl, request.path, request.url].join(' ::: ') 
         }
       });
     })
