@@ -2,7 +2,7 @@
   "name": "nodejs-express-example",
   "version": "1.0.0-SNAPSHOT",
   "scripts": {
-    "start": "modules/application.js"
+    "start": "node modules/application.js"
   },
   {
   "dependencies": {
