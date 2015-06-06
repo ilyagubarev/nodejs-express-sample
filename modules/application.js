@@ -8,7 +8,7 @@ express()
 
     .set('views', 'modules/resources/templates')
 
-    .get('/resources/templates/:template(*)', function (request, response) {
+    .get('/resources/templates/:template(*).html', function (request, response) {
       response.render(request.params.template, {
         application: {
           title: "nodejs-express-example"
