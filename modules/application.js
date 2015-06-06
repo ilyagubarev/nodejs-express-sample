@@ -16,6 +16,14 @@ express()
       });
     })
 
+    .get('/resources/models/example.json', function (request, response) {
+      response.json({
+        application: {
+          title: "nodejs-express-example"
+        }
+      });
+    })
+
     .get('/', function (request, response) {
       response.send('Home page');
     })
