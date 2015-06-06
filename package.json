@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-express-example",
+  "version": "1.0.0-SNAPSHOT",
+  "scripts": {
+    "start": "modules/application.js"
+  },
+  {
+  "dependencies": {
+    "express": "~4.12.4"
+  },
+  "engines": {
+    "node": "0.12.4"
+  }
+}
