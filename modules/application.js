@@ -24,8 +24,15 @@ express()
       });
     })
 
-    .get('/', function (request, response) {
-      response.send('Home page');
+    .get('/(*)', function (request, response) {
+      response.render(index, {
+        application: {
+          title: "nodejs-express-example"
+        },
+        system: {
+          base: "/"
+        }
+      });
     })
 
     .listen(process.env.PORT);
